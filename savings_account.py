@@ -14,6 +14,10 @@ def create_savings_account(balance, interest_rate, months):
         float: The updated savings account balance after adding the interest earned.
         And returns the interest earned.
     """
+    balance = float(input("Enter the current account balance: "))
+    interest_rate = float(input("Enter the APR interest rate: "))
+    months = int(input("Enter the length of months to determine the amount of interest: "))
+    
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
     Account(balance, interest_rate)

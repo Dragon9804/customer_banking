@@ -18,7 +18,8 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     print("Interest Earned: ", interest_earned)
-    
+    print("Updated Savings Balance: ", updated_savings_balance)
+
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE

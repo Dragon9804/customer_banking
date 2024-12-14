@@ -37,6 +37,6 @@ def create_cd_account():
     return  balance, earned_interest
 
 # Call the create_cd_account function and pass the required arguments.
-updated_balance, earned_interest = create_cd_account()
-print(f"Updated balance: ${updated_balance:.2f}")
+updated_cd_balance, earned_interest = create_cd_account()
+print(f"Updated balance: ${updated_cd_balance:.2f}")
 print(f"Interest earned: ${earned_interest:.2f}")

@@ -38,6 +38,6 @@ def create_savings_account():
     return balance, earned_interest
 
 # Call the create_savings_account function and pass the required arguments.
-updated_balance, earned_interest = create_savings_account()
-print(f"Updated balance: ${updated_balance:.2f}")
+updated_savings_balance, earned_interest = create_savings_account()
+print(f"Updated balance: ${updated_savings_balance:.2f}")
 print(f"Interest earned: ${earned_interest:.2f}")

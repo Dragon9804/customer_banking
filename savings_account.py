@@ -2,7 +2,7 @@
 from Account import Account
 
 # Define a function for the Savings Account
-def create_savings_account():
+def create_savings_account(balance, interest_rate, months):
     """Creates a savings account, calculates interest earned, and updates the account balance.
     
     Args:
@@ -14,9 +14,9 @@ def create_savings_account():
         float: The updated savings account balance after adding the interest earned.
         And returns the interest earned.
     """
-    balance = float(input("Enter the current account balance: "))
-    interest_rate = float(input("Enter the APR interest rate: "))
-    months = int(input("Enter the length of months to determine the amount of interest: "))
+    #balance = float(input("Enter the current account balance: "))
+    #interest_rate = float(input("Enter the APR interest rate: "))
+    #months = int(input("Enter the length of months to determine the amount of interest: "))
 
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
@@ -38,6 +38,6 @@ def create_savings_account():
     return balance, earned_interest
 
 # Call the create_savings_account function and pass the required arguments.
-updated_savings_balance, earned_interest = create_savings_account()
-print(f"Updated balance: ${updated_savings_balance:.2f}")
-print(f"Interest earned: ${earned_interest:.2f}")
+#updated_savings_balance, earned_interest = create_savings_account()
+#print(f"Updated balance: ${updated_savings_balance:.2f}")
+#print(f"Interest earned: ${earned_interest:.2f}")

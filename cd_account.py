@@ -13,9 +13,6 @@ def create_cd_account(balance, interest_rate, months):
         float: The updated CD account balance after adding the interest earned.
         And returns the interest earned.
     """
-    #balance = float(input("Enter the current CD account balance: "))
-    #interest_rate = float(input("Enter the APR interest rate: "))
-    #months = int(input("Enter the length of months for the CD: "))
 
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
@@ -35,8 +32,3 @@ def create_cd_account(balance, interest_rate, months):
 
     # Return the updated balance and interest earned.
     return  balance, earned_interest
-
-# Call the create_cd_account function and pass the required arguments.
-#updated_cd_balance, earned_interest = create_cd_account()
-#print(f"Updated balance: ${updated_cd_balance:.2f}")
-#print(f"Interest earned: ${earned_interest:.2f}")
